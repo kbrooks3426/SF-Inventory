@@ -1,0 +1,246 @@
+	div.menubar {
+		float:left;
+		padding-bottom:1px;
+		border-color:#696969 #A9A9A9 #696969 #CD5C5C;
+		border-style:solid;
+		border-width:4px;
+		border-right-width:2px;
+		position:fixed;
+		font-size:12px;
+		background-color:#A9A9A9;
+		
+	}
+	div.menubar ul,
+	div.menubar ul li {
+		margin:0;
+		padding:0;
+	}
+	div.menubar ul li {
+		display:block;
+		margin:0em 0.5em;
+	}
+	div.menubar input {
+		width:110px;
+		font-size:12px;
+		background-color:#A9A9A9;
+	}
+	div.menubar input.addButton {
+		width:95px;
+		font-size:11px;
+		background-color:#CD5C5C;
+		border-radius:15px;
+		border-top-left-radius:0px;
+		border-bottom-left-radius:0px;
+	}
+	div.menubar input.searchBar {
+		width:60px;
+		background-color:#FFFFFF;
+	}
+	div.menubar input.search {
+		height:20px;
+		width:40px;
+		font-size:9px;
+		background-color:#CD5C5C;
+		border-radius:15px;
+		border-top-right-radius:0px;
+		border-bottom-right-radius:0px;
+	}
+	div#title {
+		border-style:solid;
+		border-width:17px;
+		border-color:black none black none;
+		background-color:black;
+	}
+	div#header {
+		font-family:"Eurostile";
+		height:60px;
+		background-color:#A9A9A9;
+		border-radius:8px;
+		border-top-right-radius:0px;
+		border-top-left-radius:0px;
+		border-style:solid;
+		border-width:4px;
+		border-color:#CD5C5C #696969 #696969 #696969;
+	}
+	div#panel {
+		border-radius:15px;
+		width:684px;
+		margin:50px auto;
+		padding:20px;
+		background-color:#F0F0F0;
+		color:#000000;
+		padding-bottom:8px;
+		padding-right:60px;
+		padding-top:20px;
+	}
+	div#panel td#accessories {
+		background-color:#C38888;
+	}
+	div#panelSearchPage {
+		border-radius:15px;
+		width:775px;
+		margin:20px auto;
+		padding:20px;
+		background-color:#ffffff;
+		color:#000000;
+	}
+	div#assignLicensePanel {
+		border-radius:15px;
+		width:684px;
+		margin:50px auto;
+		padding:20px;
+		background-color:#F0F0F0;
+		color:#000000;
+	}
+	div#assets {
+		height: 350px;
+		overflow:auto;
+		overflow-x:hidden;
+	}
+	div#assetsHistory {
+		border-radius:15px;
+		border-color:#F0F0F0 #696969 #878787 #D2D2D2;
+		border-style:solid;
+		border-width:2px;
+		width:840px;
+		margin:20px auto;
+		padding:20px;
+		background-color:#989898;
+		color:#000000;
+	}
+	div#assetsHistory table {
+		font-size:13px;
+		border-color:#878787 #D2D2D2 #F0F0F0 #696969;
+		border-style:solid;
+		border-width:2px;
+		background-color:#F0F0F0;
+	}
+	div#assetsHistory th {
+		background-color:#B4B4B4;
+	}
+	div#panelEmployees {
+		border-radius:15px;
+		border-color:#F0F0F0 #696969 #878787 #D2D2D2;
+		border-style:solid;
+		border-width:2px;
+		width:634px;
+		margin:20px auto;
+		background-color:#989898;
+		color:#000000;
+		padding-left:0px;
+		padding-bottom:20px;
+		padding-right:0px;
+		padding-top:20px;
+	}
+	div#panelEmployees table {
+		border-color:#878787 #D2D2D2 #F0F0F0 #696969;
+		border-style:solid;
+		border-width:2px;
+		background-color:#F0F0F0;
+	}
+	div#panelEmployees th {
+		background-color:#B4B4B4;
+	}
+	div#licenses {
+		color: black;
+		height:200px;
+		overflow:auto;
+	}
+	div#assignAssets {
+		padding:50px;
+		height: 300px;
+		overflow:auto;
+		overflow-x:hidden;
+	}
+	div#employeesAssets {
+		height: 200px;
+		overflow:auto;
+		overflow-x:hidden;
+	}
+	/*(For Navigation2.html --*/
+	input.onlyButtons {
+		border-radius:15px;
+		font-size:12px;
+		background-color:#A9A9A9;
+	}
+	div.title {
+		border-style:solid;
+		border-width:5px;
+		border-color:black none black none;
+		background-color:black;
+	}
+	div#subtitle {
+		font-family:"Eurostile";
+		height:60px;
+		background-color:#A9A9A9;
+		border-radius:8px;
+		border-top-right-radius:0px;
+		border-top-left-radius:0px;
+		border-style:solid;
+		border-width:4px;
+		border-color:#CD5C5C #696969 #696969 #696969;
+	}
+	div.header {
+		border-top-left-radius: 2em 0.5em;
+		border-top-right-radius: 2em 0.5em;
+		border-bottom-right-radius: 1em 3em;
+		border-bottom-left-radius: 1em 3em;
+		font-family:"Eurostile";
+		font-variant:small-caps;
+		font-size:35px;
+		height:35px;
+		padding-left:292px;
+		padding-top:4px;
+		padding-bottom:4px;
+		background-color:#BC8F8F;
+		border-style:solid;
+		border-width:4px;
+		border-color:#CD5C5C #696969 #696969 #696969;
+	}
+	div.panel {
+		border-radius:15px;
+		border-color:#F0F0F0 #696969 #878787 #D2D2D2;
+		border-style:solid;
+		border-width:2px;
+		width:684px;
+		margin:50px auto;
+		padding:50px;
+		background-color:#A9A9A9;
+		color:#000000;
+		padding-left:60px;
+		padding-bottom:20px;
+		padding-right:60px;
+		padding-top:20px;
+	}
+	div.panelLicense {
+		border-radius:15px;
+		border-color:#F0F0F0 #696969 #878787 #D2D2D2;
+		border-style:solid;
+		border-width:2px;
+		width:684px;
+		margin:50px auto;
+		padding:50px;
+		background-color:#A9A9A9;
+		color:#000000;
+		padding-bottom:20px;
+		padding-right:60px;
+		padding-top:20px;
+	}
+	div.licenses {
+		border-color:#878787 #D2D2D2 #F0F0F0 #696969;
+		border-style:solid;
+		border-width:2px;
+		background-color:#DCDCDC;
+		margin-left:5em;
+		height:200px;
+		overflow:auto;
+	}
+	div.recent {
+		background-color:#DCDCDC;
+	}
+	input#addNewProdKey {
+		border-radius:15px;
+		font-size:13px;
+		background-color:#CD5C5C;
+	}
+	/*--)*/
